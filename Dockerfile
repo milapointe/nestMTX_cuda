@@ -29,6 +29,7 @@ RUN echo "http://dl-cdn.alpinelinux.org/alpine/edge/main" >> /etc/apk/repositori
     jpeg-dev \
     giflib-dev \
     g++ \
+    nvidia-smi \
     make && \
     mkdir -p /home/node/app && \
     mkdir -p /home/node/app/tmp && \
